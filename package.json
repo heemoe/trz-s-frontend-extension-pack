@@ -1,0 +1,45 @@
+{
+    "name": "trz-s-frontend-extension-pack",
+    "displayName": "Trz's Frontend Extension Pack",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "aaron-bond.better-comments",
+        "alefragnani.Bookmarks",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "eg2.vscode-npm-script",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "Gruntfuggly.todo-tree",
+        "HookyQR.beautify",
+        "jock.svg",
+        "jzmstrjp.color-the-tag-name",
+        "msjsdiag.debugger-for-chrome",
+        "nobelhuang.tslint-vue-tsx",
+        "octref.vetur",
+        "overtrue.miniapp-helper",
+        "pranaygp.vscode-css-peek",
+        "qiu8310.minapp-vscode",
+        "sdras.vue-vscode-snippets",
+        "stevencl.addDocComments",
+        "streetsidesoftware.code-spell-checker",
+        "swyx.swyx-react-typescript-snippets",
+        "TabNine.tabnine-vscode",
+        "vincaslt.highlight-matching-tag",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "Wscats.vue",
+        "xabikos.JavaScriptSnippets",
+        "Zignd.html-css-class-completion"
+    ]
+}
