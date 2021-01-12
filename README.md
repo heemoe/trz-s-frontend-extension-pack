@@ -1,16 +1,63 @@
 # README
+前端常用插件集合
 
-## This is the README for your extension pack "trz-s-frontend-extension-pack"
+## 常用插件
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+1. Npm
+2. Npm Intellisense
+3. Auto Rename Tag
+4. Auto Close Tag
+5. ESLint
+6. Path Intellisense
+7. vetur
+8. Color the tag name
+9. Prettier
+## 推荐设置 Recommended Settings
+···
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+  "path-intellisense.extensionOnImport": true,
+  "git.enableSmartCommit": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+"cSpell.userWords": [
+  "iife",
+  "sourcemap"
+],
+"gitlens.advanced.messages": {
+  "suppressCommitHasNoPreviousCommitWarning": true
+},
+"tabnine.experimentalAutoImports": true,
+}
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+···
